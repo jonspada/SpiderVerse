@@ -1,9 +1,9 @@
-@import url('./reset.css');
-@import url('./global.css');
-@import url('./components/_navigator.css');
-@import url('./components/_pills.css');
-@import url('./components/_link-button.css');
-@import url('./components/_gallery.css');
+@import url('SpiderVerse/reset.css');
+@import url('SpiderVerse/global.css');
+@import url('SpiderVerse/components/_navigator.css');
+@import url('SpiderVerse/components/_pills.css');
+@import url('SpiderVerse/components/_link-button.css');
+@import url('SpiderVerse/components/_gallery.css');
 
 .s-wrapper {
   display: flex;
@@ -75,6 +75,6 @@
   flex-direction: row;
 }
 .s-spiderman-01-01 {
-  background-image: url('../assets/images/spiderman-tobey/movie-01/background.png');
+  background-image: url('.SpiderVerse/assets/images/spiderman-tobey/movie-01/background.png');
   background-size: cover;
 }
