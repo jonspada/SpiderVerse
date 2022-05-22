@@ -7,7 +7,7 @@ body {
 
 body::before {
   content: ' ';
-  background-image: url('.SpiderVerse/assets/images/spider-man-background.jpg');
+  background-image: url('SpiderVerse/assets/images/spider-man-background.jpg');
   width: 100%;
   height: 100%;
   position: absolute;
@@ -134,13 +134,13 @@ body::before {
 }
 
 body#spider-man-01-hovered::before {
-  background-image: url('.SpiderVerse/assets/images/pic-sm-bg-01.jpg');
+  background-image: url('SpiderVerse/assets/images/pic-sm-bg-01.jpg');
 }
 body#spider-man-02-hovered::before {
-  background-image: url('.SpiderVerse/assets/images/pic-sm-bg-02.jpg');
+  background-image: url('SpiderVerse/assets/images/pic-sm-bg-02.jpg');
 }
 body#spider-man-03-hovered::before {
-  background-image: url('.SpiderVerse/assets/images/pic-sm-bg-03.jpg');
+  background-image: url('SpiderVerse/assets/images/pic-sm-bg-03.jpg');
 }
 body[id^='spider-man-']::before {
   opacity: 1;
